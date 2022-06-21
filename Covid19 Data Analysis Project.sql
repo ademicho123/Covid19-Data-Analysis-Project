@@ -3,7 +3,6 @@ Select Location, date, total_cases, new_cases, total_deaths, population
 From CovidDeaths
 order by 1, 2
 
----Looking cases Total Cases by Total Deaths
 -- Shows the likelihood of dying from Covid
 
 Select Location, date, total_cases,total_deaths, (total_deaths/total_cases)*100 as DeathPercentage
